@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>__version__</key>
+	<integer>200</integer>
+	<key>sectionPoints:79</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{178.453, 139.725}</string>
+			<string>{205.031, 32.6531}</string>
+			<string>{115.425, 16.7062}</string>
+			<string>{91.8844, 123.019}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13100548136366.png</string>
+	</dict>
+	<key>sectionPoints:80</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{104.763, 50.7448}</string>
+			<string>{57.2925, 37.6493}</string>
+			<string>{40.1047, 106.81}</string>
+			<string>{90.8495, 115.813}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13100548136366.png</string>
+	</dict>
+	<key>sectionPoints:81</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{112.052, 21.8919}</string>
+			<string>{91.0242, 25.6366}</string>
+			<string>{91.0242, 18.1472}</string>
+			<string>{83.8229, 17.5711}</string>
+			<string>{83.5349, 24.7724}</string>
+			<string>{59.0505, 35.4303}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13100548136366.png</string>
+	</dict>
+	<key>sectionPoints:82</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{100.997, 278.691}</string>
+			<string>{79.7344, 289.322}</string>
+			<string>{91.125, 322.734}</string>
+			<string>{118.462, 312.103}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13100548136366.png</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+ALTER TABLE  `am_leakcheck` ADD  `lastupdate` DATETIME NOT NULL AFTER  `closed_date` ;
+
+----------
+
+view/leakcheck_action
+view/mobile/leakcheck_action
+public_proposal_fcs_pdf
+fcs_sd_report_view_action
+
+fcs_sd_report
+fcs_sd_report_pop
+admin_users_edit
+admin_users_edit_action
+users_edit
+users_edit_action

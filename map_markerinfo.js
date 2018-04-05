@@ -1,0 +1,11 @@
+var fcsIcon = new GIcon();
+      fcsIcon.iconSize=new GSize(20,17);
+      fcsIcon.shadowSize=new GSize(0,0);
+      fcsIcon.iconAnchor=new GPoint(8,16);
+      fcsIcon.infoWindowAnchor=new GPoint(8,0);
+	var badgeIcon = new GIcon();
+      badgeIcon.iconSize=new GSize(24,24);
+      badgeIcon.shadowSize=new GSize(0,0);
+      badgeIcon.iconAnchor=new GPoint(8,16);
+      badgeIcon.infoWindowAnchor=new GPoint(8,0);
+    var fcs = new GIcon(fcsIcon, "http://encitegroup.com/roofoptions/googlemap/fcs.jpg", null, "http://encitegroup.com/roofoptions/googlemap/fcs.jpg");

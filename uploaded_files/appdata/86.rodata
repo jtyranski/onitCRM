@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>__version__</key>
+	<integer>200</integer>
+	<key>sectionPoints:89</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{55.7143, 140.16}</string>
+		<key>points</key>
+		<array>
+			<string>{123.003, 160.395}</string>
+			<string>{22.6325, 163.741}</string>
+			<string>{22.2389, 110.014}</string>
+			<string>{7.47856, 110.604}</string>
+			<string>{17.3188, 92.6948}</string>
+			<string>{60.0253, 93.0884}</string>
+			<string>{57.6636, 68.4879}</string>
+			<string>{45.6586, 70.2591}</string>
+			<string>{47.0362, 30.5047}</string>
+			<string>{58.6477, 28.9302}</string>
+			<string>{58.254, 46.8394}</string>
+			<string>{70.7251, 42.8954}</string>
+			<string>{72.5037, 30.9684}</string>
+			<string>{173.037, 32.7325}</string>
+			<string>{173.196, 68.8017}</string>
+			<string>{127.752, 70.2318}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13101326296939.png</string>
+	</dict>
+</dict>
+</plist>

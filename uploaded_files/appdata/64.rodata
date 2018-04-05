@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>__version__</key>
+	<integer>200</integer>
+	<key>sectionPoints:86</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{464.594, 370.016}</string>
+			<string>{454.638, 313.601}</string>
+			<string>{339.319, 323.556}</string>
+			<string>{339.319, 341.808}</string>
+			<string>{319.408, 343.467}</string>
+			<string>{321.897, 384.949}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13094660325704.png</string>
+	</dict>
+	<key>sectionPoints:87</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{457.42, 313.754}</string>
+			<string>{445.035, 213.022}</string>
+			<string>{232.013, 250.177}</string>
+			<string>{251.003, 331.919}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13094660325704.png</string>
+	</dict>
+	<key>sectionPoints:88</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{369.361, 229.934}</string>
+			<string>{346.531, 87.2443}</string>
+			<string>{131.274, 104.367}</string>
+			<string>{150.028, 251.949}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13094660325704.png</string>
+	</dict>
+	<key>sectionPoints:90</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{333.75, 84.375}</string>
+			<string>{327.285, 49.7022}</string>
+			<string>{263.516, 58.1423}</string>
+			<string>{263.516, 28.1333}</string>
+			<string>{242.885, 29.0711}</string>
+			<string>{241.947, 59.08}</string>
+			<string>{241.947, 92.84}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13094660325704.png</string>
+	</dict>
+</dict>
+</plist>

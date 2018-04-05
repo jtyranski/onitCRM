@@ -1,0 +1,68 @@
+Under the 'Tools' that we enable for clients, we need to add one called 'Ops' which will turn on the following functionality:
+
+1. Status changed to 'Sold', with product type 'Roof Replacement'.
+
+2. Made available on the contractors production schedule, put into the production queue.
+• only admins or users that have permission to add/edit daily progress can edit the schedule (including dragging to adjust schedule or clicking +/- on days)
+• user clicks on 'edit', takes user to 'production' tab of property
+• user can change the operation stage (Production Meeting, In Production, Final Inspection)
+
+3. Production Notifications to clients with updates on schedule, until production day begins. (make sure unsubscribe functions work).  Database users should have option to receive these notifications.
+
+4. New Production tab appears for the property
+• user adds a new 'project ID' (can be whatever they want), but it will be tied to the sold opportunity
+• a foreman (or project manager) needs to be selected to put onto the production schedule.
+• also at least one of the date items need to be entered to appear on the production schedule (otherwise it stays in the production queue).  When entering in a start date, the finish date should auto-populate with 
+the same date, then user can change from there.
+• Project Sq/Ft should also appear for the property (editable). Also produced sq/ft will populate as progress data is submitted (but can be overwritten here (if a manual entry is ever is cleared out, it should go
+ back to populating off the progress data).
+
+5. Adding a day should be like the roofoptions submission, but no approval is needed for daily progress reports.
+
+6. All daily progress for this project will show 'Date of Work', 'Roofing Removed', 'Roofing Replaced', '# Photos', then edit/delete functions (for admins or users with permissions to add/edit daily progress).
+
+7. Daily Progress Reports sent to clients with photos. (make sure unsubscribe functions work).  Database users should have option to receive these progress reports.  The format of the daily progress reports should 
+be updated to look more like this.
+
+8. Also the 'Click to view current progress report' should link to the same progress report and cost analysis, no changes there except it should be the contractors logo instead of FCS.
+
+tables: users(bcc_productionmeeting, bcc_opm), master_list(use_ops, productionmeeting_user), opportunities(opm_id, project_id), supercali_events(opm_id), supercali_categories(operations rows), 
+supercali_modules(operations row), opm, opm_entry, opm_entry_photos, unsubscribe_opm, unsubscribe_productionmeeting, templates(opm entry row update)
+
+variables - but don't overwrite!
+login_action
+functions
+fcs_contractors_tools
+fcs_contractors_tools_action
+fcs_contractor_login_as
+opportunity_edit
+opportunity_edit_action
+supercali/modules/operations, grid, programming, programmingcomplete
+supercali/includes/start, header, footer
+supercali/enddate, moveone, moveall
+view_property
+logout
+frame_property_production*
+frame_property_production_action
+frame_property_production_opm
+frame_property_production_opm_action
+frame_property_production_opm_delete
+frame_property_production_opm_photos
+frame_property_production_opm_photos_action
+frame_property_production_opm_photos_delete
+fileuploader_opm (folder), make writable
+uploaded_files/opm_photos (make writable)
+lytebox(folder)
+public_calendar
+cron_productionmeeting
+admin_users_edit
+admin_users_edit_action
+admin_info
+admin_info_action
+unsubscribe_productionmeeting*
+unsubscribe_opm*
+opm_s*
+cron_opm
+opm_email_guts
+set up crons.
+

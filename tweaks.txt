@@ -1,0 +1,16 @@
+1. Tab columns
+• Prospects: Company Name, City, State, Identifier, Last Action, Action by, Result
+• Candidates: Company Name, City, State, Identifier, Last Action, Action by, Obj Met
+• Client: Company Name, City, State, Props, create date, links (Active/Inactive, Props, Tools, Login) - Show only active by default, but have a filter to show Active/Inactive/All.  
+Clicking Active/Inactive will toggle this (give warning before making inactive).
+4. Candidates
+• by default, filter to the user logged in. Show a filter for showing 'All' and other users
+
+5. Multiple activities - reassign or delete
+• Need to select multiple activities from a users activity list, and have the option to 're-assign' to another user, or 'delete' the selected activities.  
+This will not only re-assign or delete from the users activity list, but also changed on the super-cali.
+6. Need a global search which will search all (prospects, candidates, clients)
+7. Filters
+• prospects: company, city, state, contact, user act (if user has an activity scheduled, should filter all companies with an activity for that user)
+• candidates: company, city, state, contact, obj met
+• clients: company, city, state, contact

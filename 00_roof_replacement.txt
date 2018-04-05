@@ -1,0 +1,31 @@
+See the attachment for a mockup example
+
+1. In customer portal:
+• in View mode, Roof Replacment tab will only show if there are any proposals created.
+• In Edit mode (shown), user can see the Roof Replacement tab, and create/edit/delete proposals.
+• columns to show should be: Created (date), Proposal ID, Description, Replacement Cost, then in edit mode (Edit, Delete, Get Done) and view mode (View)
+2. When user creates a proposal:
+• List sections to include in this proposal, user selects with checkboxes.
+• have text box for creating a proposal ID (this should be unique, so it should check if it's been used before), and if a user enters a number, then the NEXT proposal that gets generated it 
+should look at the last proposal ID number and add a 1 to it.
+• text area where user can cut and paste the replacement scope of work.  You will need to escape any special characters.
+• Replacement Value (user may or may not have commas or decimals.  If no decimals or if .00 don't shown the decimals.
+• Checkbox for 'Include Report', if selected, will also include the inspection report with only the sections selected (no budget matrix as last page).
+• Checkbox for 'Include repair options', if selected will also include an unsigned repair proposal for all uncompleted deficiencies.
+• If user adds additional literature, then that will also be included (have delete link to remove any additional literature).
+3. Once user submits, it will then go to view mode with a 'View' link and will show the roof replacement tab.
+4. When viewing, this will be a link to the PDF that was created.  The order of all included options when creating:
+• Inspection report (of only selected sections)
+• Replacement proposal (scope of work and signature page)
+• Repair proposal
+• Attached literature
+5. If user clicks 'Get Done' in edit mode (see page 1)
+• a sold opportunity is created
+• if they have ops, then the proposal ID will become the project ID.
+
+view_property
+frame_property_proposals*
+report_print_presentation_pdf_property_proposal
+FCS/rr_proposal_repair_pdf
+FCS/rr_proposal_scope_pdf
+FCS/includes/functions

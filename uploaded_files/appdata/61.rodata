@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>__version__</key>
+	<integer>200</integer>
+	<key>sectionPoints:66</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{380.612, 286.858}</string>
+			<string>{423.991, 324.64}</string>
+			<string>{395.305, 356.124}</string>
+			<string>{379.912, 342.831}</string>
+			<string>{341.431, 382.011}</string>
+			<string>{306.846, 353.558}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13094666777668.png</string>
+	</dict>
+	<key>sectionPoints:67</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{339.973, 230.696}</string>
+			<string>{261.678, 309.409}</string>
+			<string>{305.64, 355.883}</string>
+			<string>{385.609, 274.239}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13094666777668.png</string>
+	</dict>
+	<key>sectionPoints:69</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{258.423, 315.127}</string>
+			<string>{269.578, 328.142}</string>
+			<string>{247.268, 353.24}</string>
+			<string>{149.486, 261.171}</string>
+			<string>{160.941, 250.289}</string>
+			<string>{128.295, 219.361}</string>
+			<string>{122.567, 207.906}</string>
+			<string>{132.304, 201.033}</string>
+			<string>{131.158, 194.16}</string>
+			<string>{140.895, 186.142}</string>
+			<string>{145.477, 191.297}</string>
+			<string>{227.952, 119.131}</string>
+			<string>{345.365, 230.816}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13094666777668.png</string>
+	</dict>
+	<key>sectionPoints:70</key>
+	<dict>
+		<key>__ro_objectClass__</key>
+		<string>ROSectionPoints</string>
+		<key>labelPoint</key>
+		<string>{0, 0}</string>
+		<key>points</key>
+		<array>
+			<string>{157.756, 137.799}</string>
+			<string>{202.421, 100.736}</string>
+			<string>{179.613, 76.9772}</string>
+			<string>{139.699, 118.792}</string>
+		</array>
+		<key>propertyImage</key>
+		<string>13094666777668.png</string>
+	</dict>
+</dict>
+</plist>

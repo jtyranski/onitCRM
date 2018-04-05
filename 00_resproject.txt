@@ -1,0 +1,33 @@
+tables: prospects(firstname, lastname, comres), master_list(residential, full_appointment), supercali_categories(res row)
+
+ALTER TABLE  `master_list` ADD  `residential` CHAR( 1 ) NOT NULL DEFAULT  '0' AFTER  `use_ops` ;
+ALTER TABLE  `master_list` ADD  `full_appointment` TINYINT UNSIGNED NOT NULL DEFAULT  '3' AFTER  `residential` ;
+INSERT INTO  `supercali_categories` (  `category_id` ,  `name` ,  `sub_of` ,  `sequence` ,  `restricted` ,  `description` ,  `color` ,  `background` ,  `ro_user_id` ,  `calendar_type` ) 
+VALUES (
+NULL ,  'Residential',  '0',  '1',  '0',  'Residential',  '#333333',  '#333333',  '0',  'Sales'
+);
+
+variables - DO NOT OVERWRITE!!!
+login_action - NRP warning
+functions
+
+activity_edit
+activity_edit_info
+activity_edit_action
+activity_edit_pop_sched_zoom
+activity_action_supercali
+admin_info NRP warning
+admin_info_action NRP warning
+prospect_edit
+prospect_edit_action
+frame_prospect_addproperty
+frame_prospect_addproperty_action
+fcs_contractor_login_as
+fcs_contractor_tools
+fcs_contractor_tools_action
+logout
+
+supercali/includes/start
+supercali/modules/gantt
+supercali/modules/grid
+supercali/moveone

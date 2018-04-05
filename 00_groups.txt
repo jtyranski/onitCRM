@@ -1,0 +1,131 @@
+Customers who have bought an enterprise product, need to be able to manage multiple offices without those offices seeing each others data.
+
+Users in a group (or sub-group) will only be able to see other users and properties within that group (or sub-group), when sending emails, creating activities, viewing calendars, filtering opportunities.
+
+Users in a group (or sub-group) will only be able to see and work with properties assigned to a their group (or sub-group).  If a company (menards for example), has two properties in two different groups, 
+that company will be shared by both groups, but only the properties in that group will be shown.
+
+The attached PDF shows how groups and sub-groups will work:
+page 1 - Illustrates how the Enterprise Core model works
+• In Tools, Add a checkbox for 'Enterprise Core'
+• In the Admin tool, add 'Manage Groups'
+
+page 2 - There are groups and subgroups.
+• Groups can be added or removed. Whichever group is selected, you can edit the name to the right and which core users are a part of that group.
+• When a group is selected, the sub-group box will update to reflect what sub-groups are created.  To the right of sub-groups, can change the name of the selected sub-group.
+• If a group (or sub-group) is selected and removed clicked, if there are any users assigned to that group (or sub-group), warn the user with a pop-up that there are still users (or properties) 
+assigned to those groups and continuing will remove them.
+
+page 3 - just illustrates whichever group is selected, will update the other boxes for editing group members and sub-groups.
+
+page 4 - When editing users profiles
+• you can also select what groups they belong to.
+• Only groups that have sub-groups will appear in the dropdown for sub-groups.
+• If nobody is selected in any groups (or sub-groups), it is assumed they have access to the main core and they are not filtered.
+
+page 5 - Assigning properties to groups
+Under a property, there will be a new tab called 'Groups' which will allow a user to edit which group and sub-group it will show up in.
+**********************************************
+
+on the lookout: contacts2_results, search, mobile, opps page, irep like features on functions.php, contacts_fcs_results, dispatch page
+
+ALTER TABLE  `prospects` ADD  `groups` TEXT NOT NULL COMMENT  'csv of groups from assoc props' AFTER  `irep` ,
+ADD  `subgroups` TEXT NOT NULL COMMENT  'csv of subgroups from assoc props' AFTER  `groups` ;
+
+ALTER TABLE  `properties` ADD  `groups` TEXT NOT NULL COMMENT  'csv of groups from assoc props' AFTER  `irep` ,
+ADD  `subgroups` TEXT NOT NULL COMMENT  'csv of subgroups from assoc props' AFTER  `groups` ;
+
+ALTER TABLE  `users` ADD  `groups` TEXT NOT NULL ,
+ADD  `subgroups` TEXT NOT NULL ;
+
+ALTER TABLE  `master_list` ADD  `use_groups` CHAR( 1 ) NOT NULL DEFAULT  '0' COMMENT  'for Enterprise Core' AFTER  `use_ops` ;
+
+****** already did db edits *********************
+
+CREATE TABLE `groups` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `master_id` int(10) unsigned NOT NULL,
+  `group_name` varchar(255) NOT NULL,
+  `sub_of` int(10) unsigned NOT NULL,
+  `master_name` varchar(255) NOT NULL,
+  `logo` varchar(50) NOT NULL,
+  `logo2` varchar(50) NOT NULL,
+  `logo_report` varchar(50) NOT NULL,
+  `logo_map` varchar(50) NOT NULL,
+  `dispatch_from_email` varchar(250) NOT NULL,
+  `address` varchar(250) NOT NULL,
+  `city` varchar(200) NOT NULL,
+  `state` varchar(2) NOT NULL,
+  `zip` varchar(10) NOT NULL,
+  `invoice_user` int(10) unsigned NOT NULL,
+  `phone` varchar(30) NOT NULL,
+  `fax` varchar(30) NOT NULL,
+  `website` varchar(250) NOT NULL,
+  `emergency_time_frame` varchar(100) NOT NULL default '2-4 hours',
+  `urgent_time_frame` varchar(100) NOT NULL default '24-48 hours',
+  `scheduled_time_frame` varchar(200) NOT NULL,
+  `productionmeeting_user` int(10) unsigned NOT NULL,
+  `priority1` varchar(200) NOT NULL default 'Scheduled',
+  `priority2` varchar(200) NOT NULL default 'Urgent',
+  `priority3` varchar(200) NOT NULL default 'Emergency',
+  `priority1_rate` float NOT NULL default '0',
+  `priority2_rate` float NOT NULL default '0',
+  `priority3_rate` float NOT NULL default '0',
+  `custom_sd_field` varchar(200) NOT NULL COMMENT 'custom field for sd invoices',
+  `custom_sd_field2` varchar(200) NOT NULL,
+  `xml_sd_export` varchar(25) NOT NULL default 'none',
+  `from_email` varchar(200) NOT NULL,
+  `ar_account` varchar(100) NOT NULL COMMENT 'for computerease 2 export',
+  `sales_account` varchar(100) NOT NULL COMMENT 'for computerease 2 export',
+  `checks_payable_to` text NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+admin_index
+admin_groups*
+admin_user_edit
+admin_user_edit_action
+contacts2_results
+contacts_fcs_results
+fcs_contractors_tools
+fcs_contractors_tools_action
+fcs_sd_invoice_pdf2.php
+fcs_sd_invoice_pdf_documents_data.php
+fcs_sd_report
+fcs_sd_report_view2
+fcs_sd_invoice_edit
+fcs_contractor_loginas
+frame_property_groups*
+frame_prospect_properties
+login_action.php
+logout
+public_proposal_fcs_pdf
+public_proposal_fcs_pdf_signed
+public_proposal_fcs_pdf_unsigned
+public_quickbid_pdf_signed
+public_quickbid_pdf_unsigned
+report_sales_status
+sd_email
+search_filter
+view_property
+
+
+supercali/index
+supercali/modules/gannt
+supercali/models/operations
+supercali/includes/header
+includes/functions
+mobile/search
+mobile/company_details
+
+view/frame_user_sites
+view/frame_user_budget_matrix
+view/frame_user_leakcheck
+view/leakcheck
+view/leakcheck_action
+view/report_print_presentation_pdf_property
+view/report_print_presentation_pdf_property_proposal
+view/includes/functions
+view/mobile/sites
+view/mobile/leakcheck_welcome
+

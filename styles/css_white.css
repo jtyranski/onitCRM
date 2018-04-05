@@ -1,0 +1,13 @@
+@import url("css.css");
+body{
+  background-color:#FFFFFF;
+  margin:0px 0px 0px 0px;
+}
+/* many of the frames pages included links to this css page.  figured i'd just link it to the new one */
+
+a{
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  /*font-size:14px;*/
+  color:#0000ff;
+  text-decoration:none;
+}

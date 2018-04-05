@@ -1,0 +1,37 @@
+<?php include "includes/header_white.php"; ?>
+
+<script>
+function DelItem(attach_id){
+  cf = confirm("Are you sure you want to delete this template?");
+  if(cf){
+    document.location.href="admin_doc_template_delete.php?id=" + attach_id;
+  }
+}
+</script>
+<div class="main">
+
+<a href="admin_doc_template_edit.php?id=new">Add new template</a>
+<br>
+<table class="main" cellpadding="5" cellspacing="0">
+<tr>
+<td>Description</td>
+<td>Edit</td>
+<td>Delete</td>
+</tr>
+<?php
+$sql = "SELECT * from document_template where master_id='" . $SESSION_MASTER_ID . "'";
+$result = executequery($sql);
+$counter = 0;
+while($record = go_fetch_array($result)){
+  $counter++;
+  ?>
+  <tr<?php if($counter % 2) echo " bgcolor=\"$ALT_ROW_COLOR\"";?>>
+  <td><?=stripslashes($record['template_name'])?></td>
+  <td><a href="admin_doc_template_edit.php?id=<?=$record['id']?>">Edit</a></td>
+  <td><a href="javascript:DelItem('<?=$record['id']?>')">Delete</a></td>
+  </tr>
+  <?php
+}
+?>
+</table>
+</div>

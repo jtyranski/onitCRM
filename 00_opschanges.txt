@@ -1,0 +1,9 @@
+
+
+4. Permission for only the user who created is assigned the opportunity, the foreman, or users with permission in their profile (admin/manager by default), should be able to move a particular project 
+on the calendar or edit the project setup.  These same permissions for adding/editing/deleting daily progress.
+
+ALTER TABLE  `users` ADD  `can_edit_ops` CHAR( 1 ) NOT NULL DEFAULT  '0';
+UPDATE users SET can_edit_ops =1 WHERE (
+admin =1 OR user_level =  "Manager"
+)

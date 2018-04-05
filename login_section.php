@@ -1,0 +1,27 @@
+<div style="width:300px;">
+<form action="http://www.encitegroup.com/fcs/login_action.php" method="post">
+<table>
+<tr>
+<td align="right">Email</td>
+<td><input type="text" name="email"></td>
+</tr>
+<tr>
+<td align="right">Password</td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td colspan="2">
+<select name="type">
+<option value="fcs">FCS Admin</option>
+<option value="fcsmobi">FCS Admin Mobile</option>
+<option value="fcsview">FCS View</option>
+<option value="fcsviewmobi">FCS View Mobile</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2"><input type="submit" name="submit1" value="Log In"></td>
+</tr>
+</table>
+</form>
+</div>

@@ -1,0 +1,45 @@
+ALTER TABLE  `am_leakcheck` ADD  `dis_id` INT UNSIGNED NOT NULL DEFAULT  '1' COMMENT  'for disciplines table - can''t always connect to section table because section_id 0 unknown' AFTER  `cont_id` ;
+ALTER TABLE  `sections` ADD  `dis_id` INT UNSIGNED NOT NULL DEFAULT  '1' COMMENT  'for disciplines table' AFTER  `section_type` ;
+
+CREATE TABLE `disciplines` (
+  `dis_id` int(10) unsigned NOT NULL auto_increment,
+  `discipline` varchar(50) NOT NULL,
+  `membrane_filler` varchar(200) NOT NULL,
+  `flashings_filler` varchar(200) NOT NULL,
+  `sheetmetal_filler` varchar(200) NOT NULL,
+  PRIMARY KEY  (`dis_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- 
+-- Dumping data for table `disciplines`
+-- 
+
+INSERT INTO `disciplines` (`dis_id`, `discipline`, `membrane_filler`, `flashings_filler`, `sheetmetal_filler`) VALUES (1, 'Roofing', 'Membrane', 'Flashings', 'Sheet Metal');
+----------
+
+
+INSERT INTO  `toolbox_master` (  `tool_master_id` ,  `cat_id` ,  `url` ,  `name` ,  `on_icon` ,  `off_icon` ,  `fcs_only` ) 
+VALUES (
+NULL ,  '1',  'tool_discipline.php',  'Disciplines',  'toolbox_on.png',  'toolbox_off.png',  '1'
+);
+
+
+
+CREATE TABLE `discipline_to_master` (
+  `dis_id` int(10) unsigned NOT NULL,
+  `master_id` int(10) unsigned NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+ALTER TABLE  `roof_report_pdf` ADD  `dis_id` INT UNSIGNED NOT NULL DEFAULT  '1';
+ALTER TABLE  `activities` ADD  `dis_id` INT UNSIGNED NOT NULL DEFAULT  '1' AFTER  `prospect_id` ;
+
+fcs_contractors_tools
+fcs_contractors_tools_action
+frame_property_sections
+activity_edit_info
+activity_edit_action
+
+view/frame_property_sections
+
+
+

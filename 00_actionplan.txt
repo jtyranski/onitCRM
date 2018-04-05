@@ -1,0 +1,24 @@
+INSERT INTO  `toolbox_master` (  `tool_master_id` ,  `cat_id` ,  `url` ,  `name` ,  `on_icon` ,  `off_icon` ,  `fcs_only` ) 
+VALUES (
+NULL ,  '1',  'tool_actionplan.php',  'ActionPlan Report',  'toolbox_on.png',  'toolbox_off.png',  '0'
+);
+// new id=19
+
+INSERT INTO  `supercali_categories` (  `category_id` ,  `name` ,  `sub_of` ,  `sequence` ,  `restricted` ,  `description` ,  `color` ,  `background` ,  `ro_user_id` ,  `calendar_type` ) 
+VALUES (
+NULL ,  'Drop Performed',  '0',  '1',  '0',  'Drop Performed',  '#006633',  '#006633',  '0',  'Sales'
+);
+ // dp id=50
+ 
+Add Drop Performed to activities_master
+
+
+admin_index.php
+admin_actionplan.php
+admin_actionplan_action.php
+tool_actionplan*
+activity_edit_info
+activity_action_supercali
+admin_info
+admin_info_action
+piechart.js

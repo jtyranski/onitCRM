@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="actions.php" local="129683749119296191" remote="129878206200000000" testing="0" />
+<file name="add_event.php" local="129683749119426199" remote="129878206800000000" testing="0" />
+<file name="admin_actions.php" local="129683749119886225" remote="129878206800000000" testing="0" />
+<file name="bad_password.php" local="129683749120096237" remote="129878206800000000" testing="0" />
+<file name="delete_event.php" local="129683749120286248" remote="129878206800000000" testing="0" />
+<file name="documentation.php" local="129683749120456258" remote="129878206800000000" testing="0" />
+<file name="edit_categories.php" local="129683749120626267" remote="129878206800000000" testing="0" />
+<file name="edit_event.php" local="129683749120916284" remote="129878206800000000" testing="0" />
+<file name="edit_groups.php" local="129683749121246303" remote="129878206800000000" testing="0" />
+<file name="edit_links.php" local="129683749121376310" remote="129878206800000000" testing="0" />
+<file name="edit_users.php" local="129683749121546320" remote="129878206800000000" testing="0" />
+<file name="index.php" local="129855762756723342" remote="129878206800000000" testing="0" />
+<file name="install.php" local="128757400768630000" remote="129878206800000000" testing="0" />
+<file name="license.txt" local="128757400768950000" remote="129878206800000000" testing="0" />
+<file name="login.php" local="129683749121926342" remote="129878206800000000" testing="0" />
+<file name="modules.php" local="129683749122026347" remote="129878206800000000" testing="0" />
+<file name="show_event.php" local="129683748708872716" remote="129878206800000000" testing="0" />
+<file name="upload_events.php" local="129683749122356366" remote="129878206800000000" testing="0" />
+<file name="user_profile.php" local="129683749122596380" remote="129878206800000000" testing="0" />
+<file name="config.php" local="129684525130544867" remote="129878206800000000" testing="0" />
+<file name="add_event_property.php" local="129327771038966000" remote="129878206800000000" testing="0" />
+<file name="test_checkbox.php" local="128763549886030000" remote="129878206800000000" testing="0" />
+<file name="edit_event_jw.php" local="129191925694900000" remote="129878206800000000" testing="0" />
+<file name="edit_event_jw_action.php" local="129191925654496000" remote="129878206800000000" testing="0" />
+<file name="delprodq.php" local="129313744305372000" remote="129878206800000000" testing="0" />
+<file name="delevent.php" local="129787401532966656" remote="129878206800000000" testing="0" />
+<file name="enddate.php" local="129769069890847427" remote="129878206800000000" testing="0" />
+<file name="moveall.php" local="129785506900657695" remote="129878206800000000" testing="0" />
+<file name="testbox.php" local="129315668305718000" remote="129878206800000000" testing="0" />
+<file name="moveone.php" local="129791708843731593" remote="129878206800000000" testing="0" />
+<file name="test_date.php" local="129318906812438000" remote="129878206800000000" testing="0" />
+<file name="programming_pop.php" local="129809899691033977" remote="129878206800000000" testing="0" />
+<file name="programming_action.php" local="129810608661298749" remote="129878206800000000" testing="0" />
+<file name="programming_complete_action.php" local="129809877048108876" remote="129878206800000000" testing="0" />
+<file name="programming_complete_pop.php" local="129809877444041522" remote="129878206800000000" testing="0" />
+<file name="addother_action.php" local="129683747186605648" remote="129878206800000000" testing="0" />
+<file name="programming_completedev_action.php" local="129809877838734097" remote="129878206800000000" testing="0" />
+<file name="programming_completedev_pop.php" local="129809877684395269" remote="129878206800000000" testing="0" />
+<file name="leftnav_state.php" local="129788224274559277" remote="129878206800000000" testing="0" />
+<file name="programming_menu_save.php" local="129808936525872337" remote="129878206800000000" testing="0" />
+</dwsync>
